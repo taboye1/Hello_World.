@@ -3,11 +3,11 @@ package temple.edu.helloworld
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.TextView
+//import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var tView: TextView
+   //private lateinit var tView: TextView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
